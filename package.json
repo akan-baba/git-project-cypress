@@ -1,0 +1,17 @@
+{
+  "name": "project-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "npx cypress run --env ENV=dev && npx cypress run --env ENV=staging && npx cypress run --env ENV=qa && npx cypress run --env ENV=production",
+    "cypress:open": "npx cypress open --env ENV=qa"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "cypress": "^13.14.2"
+  }
+}
