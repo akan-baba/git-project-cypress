@@ -1,4 +1,4 @@
-export class Desktops {
+export class Computers {
 
     webSelectors = {
         addToCartButton: '.product-box-add-to-cart-button',
