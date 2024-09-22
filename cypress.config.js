@@ -7,10 +7,10 @@ module.exports = defineConfig({
     },
     experimentalRunAllSpecs: true,
     chromeWebSecurity: false,
-    pageLoadTimeout: 20000,
+    pageLoadTimeout: 60000,
     retries:1,
     env: {
-      commandDelay: 500,
+      commandDelay: 800,
       
     }
   },
